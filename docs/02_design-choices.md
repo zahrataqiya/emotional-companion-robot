@@ -117,3 +117,7 @@ Max 6 states:
 - USB charging
 
 No extra boards unless absolutely required.
+
+## Internal Layout Strategy
+
+The internal layout is anchored around the ESP32-S3 display board, with the battery placed directly behind it to minimize wiring complexity and maintain balance. Sound output is directed downward or backward to preserve a calm interaction experience. Touch interaction is supported through a thin top shell without internal obstructions.
